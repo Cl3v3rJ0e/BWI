@@ -99,3 +99,8 @@ dl {
     font-weight: 700;
     padding: 20px 50px;
 }
+
+#myApp .question{
+    text-align: center;
+    font-size: 5rem;
+}
