@@ -1,0 +1,101 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Roboto */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+b {
+    font-weight: 700;
+}
+
+ul,
+ol,
+dl {
+    list-style-position: inside;
+}
+
+#myApp {
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    padding: 60px 110px 80px;
+}
+
+#myApp .logo-container {
+    margin-bottom: 60px;
+}
+
+#myApp .logo-container img {
+    width: 200px;
+}
+
+#myApp .main-title {
+    font-size: 7.5rem;
+    line-height: 0.8;
+    margin-bottom: 30px;
+}
+
+#myApp .content p:first-of-type {
+    color: #b22a8a;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#myApp .content p:nth-of-type(2) {
+    font-size: 1.6rem;
+}
+
+#myApp .content {
+    margin-bottom: 40px;
+}
+
+#myApp .list ul {
+    padding-left: 20px;
+    font-size: 1.6rem;
+    margin-bottom: 80px;
+}
+
+#myApp .list li {
+    padding-left: 0;
+}
+
+#myApp .inputs #promise {
+    border: 1px solid white;
+    height: 20px;
+    width: 20px;
+    appearance: none;
+}
+
+#myApp .inputs label {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#myApp .square-btn:disabled {
+    border: 2px solid white;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 20px 50px;
+    background-color: transparent;
+    color: white;
+}
+
+#myApp .square-btn {
+    background-color: #00FFFF;
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 20px 50px;
+}
