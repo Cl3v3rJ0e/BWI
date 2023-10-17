@@ -107,7 +107,7 @@ dl {
 }
 
 #myApp .answers .flex{
-    margin-top: 70px;
+    margin-top: 75px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
