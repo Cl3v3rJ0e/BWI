@@ -100,3 +100,40 @@ dl {
     font-weight: 700;
     padding: 20px 50px;
 }
+
+#myApp .question{
+    text-align: center;
+    font-size: 5rem;
+}
+#myApp .answers{
+    
+    margin-top: 70px;
+}
+
+#myApp .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#myApp .answers .flex{
+    display: flex;
+    flex-direction: row;
+}
+#myApp .answer-button {
+    
+    cursor: pointer;
+    flex:1 1 45%;
+    margin:10px ;
+    border: 2px solid white;
+    border-radius: 25px;
+    opacity: 0.5;
+    background-color: transparent;
+    font-size: 1.6rem;
+    color: white;
+    padding: 20px;
+    width:30% ;
+    font-weight: 700;
+}
+
