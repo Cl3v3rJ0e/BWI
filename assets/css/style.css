@@ -100,39 +100,41 @@ dl {
     padding: 20px 50px;
 }
 
-#myApp .question{
+#myApp .question {
     text-align: center;
     font-size: 5rem;
 }
-#myApp .answers{
-    
+
+#myApp .answers {
+
     margin-top: 70px;
 }
 
-#myApp .flex{
+#myApp .flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-    
+
 }
-#myApp .answers .flex{
+
+#myApp .answers {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 #myApp .answer-button {
-    
     cursor: pointer;
-    flex:1 1 45%;
-    margin:10px ;
+    flex: 0 1 40%;
+    margin: 10px;
     border: 2px solid white;
-    border-radius: 25px;
+    border-radius: 40px;
     opacity: 0.5;
     background-color: transparent;
     font-size: 1.6rem;
     color: white;
     padding: 20px;
-    width:30% ;
+    width: 30%;
     font-weight: 700;
 }
-
