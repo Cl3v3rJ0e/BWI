@@ -1,27 +1,7 @@
+var countdownNumberEl = document.getElementsByClassName('countdown-number');
+var countdown = 45;
 
-//PROCEED BUTTON
-const checkbox = document.getElementById('promise');
-const nextButton = document.getElementsByClassName('square-btn');
+countdownNumberEl.textContent = countdown;
 
-checkbox.addEventListener('change', function () {
-    if (checkbox.checked) {
-        nextButton.disabled = false;
-    } else {
-        nextButton.disabled = true;
-    }
-});
-
-nextButton.addEventListener('click', function () {
-    window.location.href = 'pagina2.html'; 
-});
-  
-
-
-
-//RATE US BUTTON
-
-const rateUsButton = document.getElementsByClassName('rate-us');
-
-        rateUsButton.addEventListener('click', function () {
-            window.location.href = 'pagina4.html'; 
-        });
+setInterval(function() {
+  countdown = --countdown <= 0 ? 45 : countdown;
