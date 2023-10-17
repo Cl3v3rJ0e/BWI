@@ -104,27 +104,16 @@ dl {
     text-align: center;
     font-size: 5rem;
 }
-#myApp .answers{
-    
-    margin-top: 70px;
-}
 
-#myApp .flex{
+#myApp .answers .flex{
+    margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
-    
 }
-#myApp .answers .flex{
-    display: flex;
-    flex-direction: row;
-}
+
 #myApp .answer-button {
-    
-    cursor: pointer;
-    flex:1 1 45%;
-    margin:10px ;
+    margin: 10px ;
     border: 2px solid white;
     border-radius: 25px;
     opacity: 0.5;
@@ -132,7 +121,8 @@ dl {
     font-size: 1.6rem;
     color: white;
     padding: 20px;
-    width:30% ;
+    width: 40% ;
     font-weight: 700;
+    cursor: pointer;
 }
 
